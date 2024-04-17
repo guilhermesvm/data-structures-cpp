@@ -1,5 +1,5 @@
 #include <iostream>
-#include "tree.cpp"
+#include "namespace-tree.cpp"
 
 using namespace std;
 using namespace tree;
@@ -18,6 +18,8 @@ int main(){
     cout << "Altura: " << height(root) << endl;
 
     show(root);
+
+    clear(root);
     
     return 0;
 }
