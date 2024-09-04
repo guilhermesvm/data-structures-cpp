@@ -23,7 +23,7 @@ int main(){
 
     ofstream csv("chars.csv");
 
-     csv << "\"Ascii Code\",\"Char\",\"Count\"\n";
+    csv << "\"Ascii Code\",\"Char\",\"Count\"\n";
 
     for(int i=0; i < 255; i++){
         if(cont[i] > 0 ){
