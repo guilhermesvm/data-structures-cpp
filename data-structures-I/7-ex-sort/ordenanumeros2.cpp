@@ -1,19 +1,18 @@
 #include <iostream>
 #include <algorithm>
-#include "vetor.cpp"
 
 using namespace std;
 
-const int N = 100000;
+const int N = 6;
+double vet[N] = {1.5, 0.8, 4.4, 0.1, 9.7, 3.6};
 
 int main()
 {
     // Ordenação
-    std::sort(vet, vet + N);
+    sort(vet, vet + N);
 
-    //  Saída
-    // for (int i = 0; i < N; i++)
-    //      cout << vet[i] << '\n';
+     for (int i = 0; i < N; i++)
+        cout << vet[i] << '\n';
 
     return 0;
 }
